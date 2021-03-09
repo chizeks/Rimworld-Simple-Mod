@@ -30,8 +30,6 @@
     
     
     <techLevel>Animal</techLevel>
-
-    <!--TODO: ADD GRAPHIC DATA & equipedAngleOffset-->
     
     <statBases>
       <WorkToMake>25</WorkToMake>
