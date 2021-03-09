@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_A_Stick</defName>
+    <label>stick</label>
+    <description>A sturdy stick. Better than nothing.</description>
+    <category>Item</category>
+  
+    <equipmentType>Primary</equipmentType>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+
+    <weaponTags>
+      <li>PrimitiveMelee</li>
+      <li>WeaponsMelee</li>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <graphicData>
+      <texPath>WeaponMelee/Stick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    
+    
+    <techLevel>Animal</techLevel>
+
+    <!--TODO: ADD GRAPHIC DATA & equipedAngleOffset-->
+    
+    <statBases>
+      <WorkToMake>25</WorkToMake>
+      <MarketValue>1</MarketValue>
+      <Mass>1</Mass> 
+      <Flammability>1</Flammability>
+      <Beauty>-0.2</Beauty>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+
+    <equippedAngleOffset>-45</equippedAngleOffset>
+
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+
+    
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>1</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1</cooldownTime>
+      
+    </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+    </tools>
+    
+  </ThingDef>
+</Defs>

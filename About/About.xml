@@ -1,0 +1,10 @@
+<ModMetaData>
+	<name>sharp stick</name>
+	<author>acid cat</author>
+    <packageId>acidcat.example</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>A short mod description.</description>
+  <url>https://steamcommunity.com/profiles/76561198057909636/myworkshopfiles/</url>
+</ModMetaData>
